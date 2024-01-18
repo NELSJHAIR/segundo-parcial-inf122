@@ -1,0 +1,14 @@
+:root{
+    --back:#FFFFFF;
+    --text: #5A5A5A;
+}
+*{
+    background-color: var(--back);
+}
+.meta-container{
+    background-color: var(--back);
+}
+span{
+    color:black;
+    background-color: var(--back);
+}

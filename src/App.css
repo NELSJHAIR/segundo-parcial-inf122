@@ -1,38 +1,31 @@
-.App {
+
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap');
+
+:root{
+  --text: 'Overpass';
+  --back-color: #1B1C1F;;
+  --text-color: #F6F7F9;
+}
+*{
+  background-color: var(--back-color);
+  color: var(--text-color);
+  width: 100%;
+}
+h1{
+  font-family: var(--text);
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.entrada{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Panel{
+  display: flex;
+  flex-direction: row;
+  align-items:flex-end;
+  justify-content: flex-end;
+  width: 70%; 
 }

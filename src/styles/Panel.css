@@ -1,0 +1,51 @@
+:root {
+  --color-completadas: #117A7A;
+  --color-pendientes: #B2324A;
+  --color-texto: #5A5A5A;
+  --color-fondo: white;
+  --border-radius: 10px;
+}
+
+.panel-container {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+}
+
+.sub-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.recuadro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-fondo);
+  border-radius: var(--border-radius);
+}
+
+.recuadro.completadas {
+  color: var(--color-completadas);
+}
+.recuadro.pendientes {
+  color: var(--color-pendientes);
+}
+
+.metas-lista {
+  background-color: var(--color-fondo);
+  list-style: none;
+  color: var(--color-texto);
+}
+
+.metas-lista li {
+  display: flex;
+  align-items: center;
+}
+
+.metas-lista li.completada {
+  text-decoration: line-through;
+}

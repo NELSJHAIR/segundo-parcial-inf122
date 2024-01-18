@@ -1,0 +1,39 @@
+:root{
+    --back:#F6F7F9;
+    --verde: #1C9675;
+    --grey:#767E8C;
+    --text: 'Overpass';
+    --black:#5A5A5A;
+}
+.entrada-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 70%; 
+  height: 20px;
+  margin-bottom: 20px; 
+  margin: 0 auto;
+  margin-bottom: 20px;
+  
+}
+input{
+    border-radius:  10px 0px 0px 10px;
+    padding: 16px 20px;
+    width: 70%;
+    background-color:var(--back);
+    color: var(--black);
+}
+::placeholder{
+    color: var(--grey); 
+}
+button{
+    border-radius: 0px 10px 10px 0px;
+    padding: 16px 20px;
+    align-items: center;
+    text-align: center;
+    width: 10%;
+    background-color: var(--verde);
+    color: var(--back);
+
+}
